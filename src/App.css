@@ -1,14 +1,61 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
+  padding: 40px;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav > li {
+  font-size: 20px;
+}
+
+.App-body {
+  display: flex;
+  height: calc(100vh - 170px);
+  margin: 0;
+  top: 170px;
+}
+
+.App-body > div:first-child {
+  height: 90%;
+  width: 90%;
+  margin: auto
+}
+
+.App-body > .directions:first-child {
+  height: 80%;
+  width: 80%;
+  margin: auto
+}
+
+.googleMap {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+.openText {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.day {
+  height: 90px;
+  width: 90px;
+  background-color: transparentize(white, 0.30);
+}
+
+.day > .numDate {
+  margin-top: -5px;
+  float: left;
 }

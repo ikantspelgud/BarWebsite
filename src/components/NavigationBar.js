@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 export default () => {
   return (
-    <Navbar>
+    <Navbar className="App-header" bsStyle="inverse">
       <Navbar.Header>
         <LinkContainer to="/">
           <Navbar.Brand>Donn's Depot</Navbar.Brand>
