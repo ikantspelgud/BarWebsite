@@ -30,15 +30,22 @@
 }
 
 .App-body > div:first-child {
-  height: 90%;
-  width: 90%;
+  height: 95%;
+  width: 95%;
   margin: auto
 }
 
-.App-body > .directions:first-child {
-  height: 80%;
-  width: 80%;
-  margin: auto
+.directions .form-group {
+  margin: 0 1em 1em;
+}
+
+.directions form input {
+  min-width: 20em;
+  display: inline;
+}
+
+.directions form button {
+  margin: 1em;
 }
 
 .googleMap {
